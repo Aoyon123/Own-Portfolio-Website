@@ -24,10 +24,10 @@ function Header() {
   return (
     <div className="text-white font-mont">
       <div className="flex bg-theme justify-between items-center p-2 shadow-lg">
-        <div>
+        <div className="">
           <h1 className="text-4xl font-semibold">F A H A M I D U L</h1>
         </div>
-        <div className="flex">
+        <div className="flex md:hidden">
           {menuItems.map((item) => {
             return (
               <li className="list-none mx-5">
