@@ -120,11 +120,58 @@ function Home() {
           </div>
         </div>
 
+        {/* Devstack Section */}
+        <div className="my-20">
+          <div className="text-center h-52 bg-red-500">
+            <h1 className="text-white font-bold text-4xl py-10">
+              My Dev Stack
+            </h1>
+          </div>
 
-       
+          <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white">
+            <div className="h-96">
+              <lottie-player
+                src="https://assets1.lottiefiles.com/packages/lf20_qhrndegx.json"
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div className="grid md:grid-cols-1 grid-cols-3 p-5">
+              <div>
+                <h1 className="text-xl font-bold">Front End</h1>
+                <hr />
+                <p className="font-semibold mt-2">HTML / CSS</p>
+                <p className="font-semibold mt-2">JavaScript</p>
+                <p className="font-semibold mt-2">React</p>
+                <p className="font-semibold mt-2">Redux</p>
+              </div>
+
+              <div className="text-center">
+                <h1 className="text-xl font-bold">UI/UX</h1>
+                <hr />
+                <p className="font-semibold mt-2">Bootstrap</p>
+                <p className="font-semibold mt-2">Tailwind Css</p>
+              </div>
+
+              <div className="text-right">
+                <h1 className="text-xl font-bold">BackEnd and DB</h1>
+                <hr />
+                <p className="font-semibold mt-2">Node JS</p>
+                <p className="font-semibold mt-2">Express JS</p>
+                <p className="font-semibold mt-2">MySql</p>
+                <p className="font-semibold mt-2">MongoDB</p>
+                <p className="font-semibold mt-2">Python</p>
+                <p className="font-semibold mt-2">Php</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
-
+        {/*MY INFO*/}
+        
       </div>
     </Layout>
   );
