@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Montserrat:wght@500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+html {
+  overflow-x: hidden;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
