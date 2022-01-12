@@ -142,7 +142,8 @@ function Home() {
               <div>
                 <h1 className="text-xl font-bold">Front End</h1>
                 <hr />
-                <p className="font-semibold mt-2">HTML / CSS</p>
+                <p className="font-semibold mt-2">HTML</p>
+                <p className="font-semibold mt-2">CSS</p>
                 <p className="font-semibold mt-2">JavaScript</p>
                 <p className="font-semibold mt-2">React</p>
                 <p className="font-semibold mt-2">Redux</p>
